@@ -18,6 +18,8 @@ def obtener_fracciones(frac_str):
 
 
 def suma(a, b):
+    a = str(a)
+    b = str(b)
     sumando_a = obtener_fracciones(a)
     sumando_b = obtener_fracciones(b)
     return sumando_a + sumando_b
